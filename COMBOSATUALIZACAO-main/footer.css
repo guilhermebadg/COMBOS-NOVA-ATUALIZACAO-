@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footer{
+    background-image: url(imagens/footer.jpeg);
+    color: white;
+    margin: 10% 0 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aslapp{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    margin: 0 5% 2% 5%;
+    width: 85%;
+}
+
+.redes{
+    height: 40px;
+    padding: 3%;
+    width: 40px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover{
+    color: #a35709;
+    text-decoration: none;
+}
+
+.logo1{
+    width: 80px;
+    height: 80px;
+}
+
+.copyrigth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media(max-width:800px) {
+    footer{
+        width: 100%;
+    }
+
+    .redes-sociais{
+        display: flex;
+    }
+
+    .conteudo{
+        display: flex;
+    }
+
+    .sociais{
+        display: none;
+    }
+
+    .programacao{
+        display: none;
+    }
+}

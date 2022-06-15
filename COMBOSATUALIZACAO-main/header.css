@@ -1,0 +1,44 @@
+
+
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.bg-light{
+    background-color: #A35709!important;
+    transition-property: all;
+}
+
+.container{
+    margin: 0 5px 0 5px;
+}
+
+.cabecalho{
+    width: 80px;
+    height: 80px;
+}
+
+.navbar>.container{
+    width: 150px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+}
+
+.lista .lista-menu{
+    padding-left: 30px;
+    list-style-type: none;
+    color: white;
+}
+
+.lista .lista-menu:hover{
+    color: #1b1a17;
+}
+
+.carrinhoheader{
+    width: 30px;
+}
